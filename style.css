@@ -16,8 +16,8 @@
 }
 body {
   display: grid;
-  grid-template-columns: (3, 1fr);
-  max-width: 100%vw;
+  grid-template-columns: (3,1fr);
+  max-width: 100%;
   grid-template-areas:
     "header"
     "main"
@@ -211,6 +211,7 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
   }
   main {
     width: 100%vw;
