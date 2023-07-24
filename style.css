@@ -217,6 +217,9 @@ footer {
     display: grid;
     grid-template-columns: (3, 1fr);
   }
+  body{
+    width: 100%vw;
+  }
   header {
     display: flex;
     flex-direction: row-reverse;
