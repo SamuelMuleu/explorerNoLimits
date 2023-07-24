@@ -214,8 +214,8 @@ footer {
   }
   main {
     width: 100%vw;
-    display: grid;
-    grid-template-columns: (3, 1fr);
+  display: flex;
+  flex-direction: column;
   }
   header {
     display: flex;
