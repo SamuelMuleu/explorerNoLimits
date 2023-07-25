@@ -16,10 +16,7 @@
 }
 body {
   display: grid;
-  grid-template-areas:
-  "header"
-  "main"
-  "article";
+  grid-template-areas: "header" "main" "article";
 }
 header {
   background-color: var(--bg-primary);
@@ -60,6 +57,7 @@ section p {
 main {
   background-color: var(--fc-secundary);
   grid-area: main;
+  max-width: 100%;
 }
 
 .moons {
@@ -212,10 +210,12 @@ footer {
   }
   body {
     max-height: 100%;
+    overflow-x: hidden;
   }
   main {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
   }
   header {
     display: flex;
