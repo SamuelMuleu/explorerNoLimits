@@ -206,7 +206,6 @@ footer {
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   body {
     max-height: 100%;
@@ -262,21 +261,21 @@ footer {
     max-height: 45rem;
   }
   #luaAzul:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
   #luaAmarela {
     max-width: 37rem;
     max-height: 45rem;
   }
   #luaAmarela:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
   #luaRosa {
     max-width: 37rem;
     max-height: 45rem;
   }
   #luaRosa:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
   article {
     background-image: url(./assets/estrelas.png);
