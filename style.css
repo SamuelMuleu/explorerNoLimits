@@ -28,7 +28,18 @@ header #astronaut {
   height: 37rem;
 }
 
+#vector {
+  position: absolute;
+  padding-top: 2.5rem;
+  padding-left: 0.1rem;
 
+  margin: 0 19.7rem;
+}
+#rectangle {
+  position: relative;
+  padding-bottom: 9.2rem;
+  padding-left: 2rem;
+}
 section {
   padding-top: 0.5rem;
   padding-bottom: 2.5rem;
@@ -50,16 +61,16 @@ main {
 }
 
 .moons {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 main #luaAzul {
-  max-width: 300px;
-  max-height: 330px;
+  max-width: 30rem;
+  max-height: 33rem;
   background-color: var(--bg-primary);
   margin: 0 auto;
-  margin-top: 52px;
-  border-radius: 8px;
-  padding: 15px;
+  margin-top: 5.2rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
   line-height: 1.5rem;
 }
 #luaAzul h1 {
@@ -68,19 +79,19 @@ main #luaAzul {
   padding-top: 1.3rem;
 }
 #luaAzul p {
-  max-width: 190px;
+  max-width: 19rem;
   padding-top: 1.3rem;
   color: var(--fc-secundary);
   font-family: var(--ff-primary);
 }
 main #luaAmarela {
-  max-width: 300px;
-  max-height: 330px;
+  max-width: 30rem;
+  max-height: 33rem;
   background-color: var(--bg-primary);
   margin: 0 auto;
-  margin-top: 52px;
-  border-radius: 8px;
-  padding: 15px;
+  margin-top: 5.2rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -90,19 +101,19 @@ main #luaAmarela {
   padding-top: 1.3rem;
 }
 #luaAmarela p {
-  max-width: 190px;
+  max-width: 20rem;
   padding-top: 1.3rem;
   color: var(--fc-secundary);
   font-family: var(--ff-primary);
 }
 main #luaRosa {
-  max-width: 300px;
-  max-height: 330px;
+  max-width: 30rem;
+  max-height: 33rem;
   background-color: var(--bg-primary);
   margin: 0 auto;
-  margin-top: 52px;
-  border-radius: 8px;
-  padding: 15px;
+  margin-top: 5.2rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
   line-height: 1.5rem;
 }
 #luaRosa h1 {
@@ -111,7 +122,7 @@ main #luaRosa {
   padding-top: 1.3rem;
 }
 #luaRosa p {
-  max-width: 190px;
+  max-width: 19rem;
   padding-top: 1.3rem;
   color: var(--fc-secundary);
   font-family: var(--ff-primary);
@@ -120,56 +131,56 @@ main #luaRosa {
 article {
   background-color: var(--bg-primary);
   width: 100%;
-  padding-top: 70px;
-  padding-left: 20px;
+  padding-top: 7rem;
+  padding-left: 2rem;
   grid-area: article;
 }
 input {
   display: block;
-  height: 40px;
-  margin: 20px;
-  border-radius: 10px;
+  height: 4rem;
+  margin: 2rem;
+  border-radius: 1rem;
   outline: none;
-  border: 1px solid #312d64;
-  width: 348px;
+  border: 0.1rem solid #312d64;
+  width: 34.8rem;
 }
 
 #name {
   background-image: url(./assets/person.png);
   background-repeat: no-repeat;
-  background-position-x: 5px;
-  background-position-y: 5px;
+  background-position-x: 0.5rem;
+  background-position-y: 0.5rem;
 }
 
 #name::placeholder {
-  padding-left: 35px;
+  padding-left: 3.5rem;
 }
 
 #email {
   background-image: url(./assets/at.png);
   background-repeat: no-repeat;
-  background-position-x: 5px;
-  background-position-y: 5px;
+  background-position-x: 0.5rem;
+  background-position-y: 0.5rem;
 }
 #email::placeholder {
-  padding-left: 35px;
+  padding-left: 3.5rem;
 }
 #textContact {
-  height: 160px;
+  height: 16rem;
   position: relative;
 }
 #textContact::placeholder {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px;
+  padding: 1rem;
 }
 legend {
   color: var(--fc-primary);
   font-family: var(--ff-primary);
   font-size: 2rem;
   font-weight: 800;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 fieldset {
   border: none;
@@ -178,17 +189,17 @@ fieldset {
 button {
   background-color: var(--fc-secundary);
   color: #ffff;
-  border-radius: 10px;
-  height: 40px;
-  padding: 10px;
-  margin-left: 20px;
+  border-radius: 1rem;
+  height: 4rem;
+  padding: 1rem;
+  margin-left: 2rem;
   font-family: var(--ff-primary);
 }
 footer {
   background-color: var(--fc-secundary);
   width: 100%vw;
 
-  padding: 40px;
+  padding: 4rem;
   grid-area: footer;
 }
 
@@ -230,7 +241,7 @@ footer {
   }
   #vector {
     position: relative;
-    top: 500px;
+    top: 50rem;
   }
   #rectangle {
     position: relative;
