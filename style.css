@@ -16,7 +16,7 @@
 }
 body {
   display: grid;
-  grid-template-areas: "header" "main" "article";
+  grid-template-areas: "header" "main" "article" "footer";
 }
 header {
   background-color: var(--bg-primary);
@@ -200,6 +200,7 @@ footer {
   width: 100%vw;
 
   padding: 40px;
+  grid-area: footer;
 }
 
 @media (min-width: 700px) {
