@@ -83,7 +83,7 @@ main #luaAzul {
   font-family: var(--ff-primary);
 }
 main #luaAmarela {
-  max-width: 300px;
+  max-width: 300px; 
   max-height: 330px;
   background-color: var(--bg-primary);
   margin: 0 auto;
@@ -92,6 +92,7 @@ main #luaAmarela {
   padding: 15px;
   line-height: 1.5rem;
 }
+
 #luaAmarela h1 {
   color: var(--fc-primary);
   font-family: var(--ff-primary);
