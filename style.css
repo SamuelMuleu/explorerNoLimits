@@ -16,11 +16,15 @@
 }
 body {
   display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "article";
 }
 header {
   background-color: var(--bg-primary);
   text-align: center;
-  grid-area: "header";
+  grid-area: header;
 }
 header #astronaut {
   width: 36.4rem;
@@ -55,7 +59,7 @@ section p {
 }
 main {
   background-color: var(--fc-secundary);
-  grid-area: "main";
+  grid-area: main;
 }
 
 .moons {
@@ -131,6 +135,7 @@ article {
   width: 100%;
   padding-top: 70px;
   padding-left: 20px;
+  grid-area: article;
 }
 input {
   display: block;
@@ -287,6 +292,7 @@ footer {
   }
   button {
     margin-left: 8rem;
+    margin-bottom: 4rem;
   }
   footer {
     text-align: center;
