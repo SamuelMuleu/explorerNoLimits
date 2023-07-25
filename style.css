@@ -28,18 +28,7 @@ header #astronaut {
   height: 37rem;
 }
 
-#vector {
-  position: absolute;
-  padding-top: 2.5rem;
-  padding-left: 0.1rem;
 
-  margin: 0 197px;
-}
-#rectangle {
-  position: relative;
-  padding-bottom: 92px;
-  padding-left: 2rem;
-}
 section {
   padding-top: 0.5rem;
   padding-bottom: 2.5rem;
