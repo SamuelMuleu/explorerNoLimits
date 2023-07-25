@@ -22,6 +22,7 @@ header {
   background-color: var(--bg-primary);
   text-align: center;
   grid-area: header;
+  max-width: 100%;
 }
 header #astronaut {
   width: 36.4rem;
@@ -130,7 +131,7 @@ main #luaRosa {
 
 article {
   background-color: var(--bg-primary);
-  width: 100%;
+  max-width: 100%;
   padding-top: 7rem;
   padding-left: 2rem;
   grid-area: article;
@@ -197,7 +198,7 @@ button {
 }
 footer {
   background-color: var(--fc-secundary);
-  width: 100%vw;
+  max-width: 100%;
 
   padding: 4rem;
   grid-area: footer;
@@ -210,6 +211,7 @@ footer {
   }
   body {
     max-height: 100%;
+    max-width: 100%;
   }
   main {
     display: flex;
@@ -219,6 +221,7 @@ footer {
   header {
     display: flex;
     flex-direction: row-reverse;
+    max-width: 100%;
   }
 
   header #astronaut {
@@ -249,7 +252,7 @@ footer {
     left: 24.7rem;
   }
   article {
-    width: 100%;
+    max-width: 100%;
   }
   .moons {
     display: flex;
@@ -294,6 +297,7 @@ footer {
     margin-bottom: 4rem;
   }
   footer {
+    max-width: 100%;
     text-align: center;
   }
 }
