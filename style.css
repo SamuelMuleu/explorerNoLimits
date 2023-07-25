@@ -209,7 +209,7 @@ footer {
     box-sizing: border-box;
   }
   main {
-    width: 100%vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -219,15 +219,15 @@ footer {
   }
 
   header #astronaut {
-    width: 720px;
-    height: 730px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+    width: 72rem;
+    height: 73rem;
+    padding-right: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   #text {
-    padding-top: 200px;
-    padding-right: 120px;
+    padding-top: 20rem;
+    padding-right: 12rem;
   }
 
   section h1 {
@@ -242,11 +242,11 @@ footer {
   }
   #rectangle {
     position: relative;
-    top: 500px;
-    left: 247px;
+    top: 50rem;
+    left: 24.7rem;
   }
   article {
-    width: 100%vw;
+    width: 100%;
   }
   .moons {
     display: flex;
@@ -254,22 +254,22 @@ footer {
   }
 
   #luaAzul {
-    width: 370px;
-    height: 450px;
+    width: 37rem;
+    height: 45rem;
   }
   #luaAzul:hover {
     transform: scale(1.2);
   }
   #luaAmarela {
-    width: 370px;
-    height: 450px;
+    width: 37rem;
+    height: 45rem;
   }
   #luaAmarela:hover {
     transform: scale(1.2);
   }
   #luaRosa {
-    width: 370px;
-    height: 450px;
+    width: 37rem;
+    height: 45rem;
   }
   #luaRosa:hover {
     transform: scale(1.2);
@@ -283,11 +283,11 @@ footer {
     padding-left: 3%;
   }
   legend {
-    margin-left: 20px;
+    margin-left: 2rem;
     font-weight: 800;
   }
   button {
-    margin-left: 80px;
+    margin-left: 8rem;
   }
   footer {
     text-align: center;
